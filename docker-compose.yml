@@ -1,0 +1,6 @@
+﻿services:
+  stockstream.host:
+    image: stockstream.host
+    build:
+      context: .
+      dockerfile: src/App/StockStream.Host/Dockerfile
