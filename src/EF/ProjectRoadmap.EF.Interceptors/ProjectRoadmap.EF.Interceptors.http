@@ -1,0 +1,6 @@
+@ProjectRoadmap.EF.Interceptors_HostAddress = http://localhost:5253
+
+GET {{ProjectRoadmap.EF.Interceptors_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

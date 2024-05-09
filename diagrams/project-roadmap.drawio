@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-05-08T06:28:14.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Dr2l9bFaT4265grpI29P" version="23.1.5" type="device">
+<mxfile host="Electron" modified="2024-05-08T06:41:49.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ujW55YNcdC8rOrK0cWjb" version="23.1.5" type="device">
   <diagram name="Page-1" id="jshFUfBYLE1mbLNR9zSw">
-    <mxGraphModel dx="4449" dy="2406" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4087" dy="2193" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,7 +343,7 @@
           <mxGeometry x="-1220" y="-290" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-22" value="Domain Events" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="-290" width="148" height="34" as="geometry" />
+          <mxGeometry x="-1620" y="-383.75" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-23" value="Minimal API&#xa;&#xa;Auto Registration&#xa;How to Structure" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1448" y="-760" width="148" height="80" as="geometry" />
@@ -373,7 +373,7 @@
           <mxGeometry x="-1828" y="-554" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-33" value="MassTransit with RabbitMQ" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="-177" width="148" height="34" as="geometry" />
+          <mxGeometry x="-1620" y="-270.75" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-34" value="API Versioning" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1620" y="-714" width="148" height="34" as="geometry" />
@@ -396,25 +396,25 @@
           <mxGeometry x="-2000" y="-500" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-40" value="CQRS Pattern With MediatR" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1448" y="-159" width="148" height="34" as="geometry" />
+          <mxGeometry x="-1448" y="-252.75" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-41" value="MediatR Behaviors&#xa;&#xa;Logging&#xa;Validations&#xa;Caching&#xa;Authentication" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1448" y="-290" width="148" height="120" as="geometry" />
+          <mxGeometry x="-1448" y="-383.75" width="148" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-42" value="Feature Flags" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1828" y="104" width="148" height="34" as="geometry" />
+          <mxGeometry x="-1448" y="-33.25" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-43" value="Race Conditions With EF Core Optimistic Locking" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1828" y="-96" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-44" value="Testcontainers" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1448" y="194.5" width="148" height="34" as="geometry" />
+          <mxGeometry x="-674" y="-307.5" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-45" value="Rate Limiting" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-49.25" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-46" value="SignalR" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="-83.25" width="148" height="34" as="geometry" />
+          <mxGeometry x="-1620" y="-177" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-47" value="The Right Way To Use HttpClient" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-846" y="-714" width="148" height="34" as="geometry" />
@@ -423,7 +423,7 @@
           <mxGeometry x="-1220" y="-671.25" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-49" value="CI/CD Pipeline With GitHub" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1220" y="104" width="148" height="34" as="geometry" />
+          <mxGeometry x="-846" y="-42.5" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-50" value="Multi-Tenant Applications" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-714" width="148" height="34" as="geometry" />
@@ -432,16 +432,16 @@
           <mxGeometry x="-1048" y="-96" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-52" value="Idempotent Consumer - Handling Duplicate Messages" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="-242" width="148" height="54" as="geometry" />
+          <mxGeometry x="-1620" y="-335.75" width="148" height="54" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-53" value="EF Core Raw SQL Queries" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-2000" y="-132" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-54" value="xUnit" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1448" y="152.5" width="148" height="34" as="geometry" />
+          <mxGeometry x="-674" y="-349.5" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-55" value="Inbox / Outbox Pattern" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="-132" width="148" height="34" as="geometry" />
+          <mxGeometry x="-1620" y="-225.75" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-56" value="Structured Logging" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-450" width="148" height="34" as="geometry" />
@@ -483,25 +483,25 @@
           <mxGeometry x="-1048" y="-760" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-69" value="Unit Testing" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="104" width="148" height="34" as="geometry" />
+          <mxGeometry x="-846" y="-398" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-70" value="Integration Testing" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="152.5" width="148" height="34" as="geometry" />
+          <mxGeometry x="-846" y="-349.5" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-71" value="E2E Testing" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="194.5" width="148" height="34" as="geometry" />
+          <mxGeometry x="-846" y="-307.5" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-72" value="Functional Testing" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="235" width="148" height="34" as="geometry" />
+          <mxGeometry x="-846" y="-267" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-73" value="Subcutaneous Testing" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1620" y="280" width="148" height="34" as="geometry" />
+          <mxGeometry x="-846" y="-222" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-74" value="Authentication and Authorization&#xa;&#xa;JWT / AuthToken&#xa;Cookie" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-2000" y="104" width="148" height="102" as="geometry" />
+          <mxGeometry x="-1620" y="-33.25" width="148" height="102" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-76" value="3 Types of Permission-Based Authorization" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-2000" y="220.5" width="148" height="34" as="geometry" />
+          <mxGeometry x="-1620" y="83.25" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-77" value="Ardalis Guard vs Throw" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-846" y="-580" width="148" height="34" as="geometry" />
@@ -531,7 +531,7 @@
           <mxGeometry x="-1220" y="-98" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-87" value="Using Docker in .Net" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1220" y="152.5" width="148" height="34" as="geometry" />
+          <mxGeometry x="-846" y="6" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-88" value="API ProblemDetails Class" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1620" y="-627" width="148" height="34" as="geometry" />
@@ -540,7 +540,7 @@
           <mxGeometry x="-1448" y="-671.25" width="148" height="69.5" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-90" value="NSubstitute" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
-          <mxGeometry x="-1448" y="104" width="148" height="34" as="geometry" />
+          <mxGeometry x="-674" y="-398" width="148" height="34" as="geometry" />
         </mxCell>
         <mxCell id="4kI5davbeTvZemRath70-91" value="Polly (Retry Policies)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-674" y="-671.25" width="148" height="34" as="geometry" />
@@ -557,40 +557,40 @@
         <mxCell id="4kI5davbeTvZemRath70-95" value="How to use Streaming Services (Kafka)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-626" width="148" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-20" value="ARCHITECTURE AND DESIGN PATTERNS" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-20" value="ARCHITECTURE AND DESIGN PATTERNS" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-2000" y="-820" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-21" value="API DEVELOPMENT" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-21" value="API DEVELOPMENT" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-1620" y="-820" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-22" value="ENTITY FRAMEWORK CORE" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-22" value="ENTITY FRAMEWORK CORE" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-2000" y="-352" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-23" value="MESSAGING AND INTEGRATION" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="-1620" y="-355.5" width="320" height="34" as="geometry" />
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-23" value="MESSAGING AND INTEGRATION" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="-1620" y="-449.25" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-24" value="DISTRIBUTED SYSTEMS" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-24" value="DISTRIBUTED SYSTEMS" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-820" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-25" value="LOGGING AND ERROR HANDLING" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-25" value="LOGGING AND ERROR HANDLING" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-546" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-26" value="VALIDATION AND ERROR PREVENTION" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-26" value="VALIDATION AND ERROR PREVENTION" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-355.5" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-27" value="CACHING AND PERFORMANCE" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-27" value="CACHING AND PERFORMANCE" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-1220" y="-161" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-29" value="SECURITY AND AUTHENTICATION" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="54" width="320" height="34" as="geometry" />
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-29" value="SECURITY AND AUTHENTICATION" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="-1620" y="-83.25" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-30" value="TESTING AND QUALITY ASSURANCE" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="-1620" y="54" width="320" height="34" as="geometry" />
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-30" value="TESTING AND QUALITY ASSURANCE" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="-846" y="-448" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-32" value="DEVOPS AND CI/CD" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
-          <mxGeometry x="-1220" y="54" width="320" height="34" as="geometry" />
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-32" value="DEVOPS AND CI/CD" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="-846" y="-92.5" width="320" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="Dv10TZ1auFb6U5MyUNRN-33" value="BEST PRACTICES AND PATTERNS" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+        <mxCell id="Dv10TZ1auFb6U5MyUNRN-33" value="BEST PRACTICES AND PATTERNS" style="whiteSpace=wrap;strokeWidth=2;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-846" y="-820" width="320" height="34" as="geometry" />
         </mxCell>
       </root>
