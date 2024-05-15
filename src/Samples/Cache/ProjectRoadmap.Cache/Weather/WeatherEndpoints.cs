@@ -1,0 +1,28 @@
+using Microsoft.AspNetCore.Mvc;
+
+namespace ProjectRoadmap.Cache.Endpoints;
+
+public static class WeatherEndpoints
+{
+    public static void RegisterWeatherEndpoints(this WebApplication app )
+    {
+        app.MapGet("/weatherforecast", (
+                [FromQuery] string location, 
+                [FromServices] IWeatherService weatherService) =>
+            {
+                return weatherService.GetByLocation(location);
+            })
+            .WithName("GetWeatherForecast")
+            .WithOpenApi();
+        
+        app.MapPost("/weatherforecast", (
+                [FromQuery]string location, 
+                [FromBody]WeatherForecast weatherForecast, 
+                IWeatherService weatherService) =>
+            {
+                weatherService.Update(location, weatherForecast);
+            })
+            .WithName("SetWeatherForecast")
+            .WithOpenApi();
+    }
+}
