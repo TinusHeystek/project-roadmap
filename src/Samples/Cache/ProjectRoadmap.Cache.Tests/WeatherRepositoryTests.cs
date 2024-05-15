@@ -1,5 +1,5 @@
-using ProjectRoadmap.Cache.Endpoints;
 using ProjectRoadmap.Cache.Tests.Factories;
+using ProjectRoadmap.Cache.Weather;
 
 namespace ProjectRoadmap.Cache.Tests;
 

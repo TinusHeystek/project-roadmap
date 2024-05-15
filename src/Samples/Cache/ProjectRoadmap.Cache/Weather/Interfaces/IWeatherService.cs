@@ -1,6 +1,6 @@
-using ProjectRoadmap.Cache.Endpoints;
+using ProjectRoadmap.Cache.Models;
 
-namespace ProjectRoadmap.Cache;
+namespace ProjectRoadmap.Cache.Weather.Interfaces;
 
 public interface IWeatherService
 {

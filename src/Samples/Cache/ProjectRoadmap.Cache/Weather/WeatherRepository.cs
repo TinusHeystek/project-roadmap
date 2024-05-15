@@ -1,11 +1,12 @@
 using System.Collections.Concurrent;
-using ProjectRoadmap.Cache.Endpoints;
+using ProjectRoadmap.Cache.Models;
+using ProjectRoadmap.Cache.Weather.Interfaces;
 
-namespace ProjectRoadmap.Cache;
+namespace ProjectRoadmap.Cache.Weather;
 
 public class WeatherRepository : IWeatherRepository
 {
-    private readonly ConcurrentDictionary<string, WeatherForecast> _db = new();
+    private readonly ConcurrentDictionary<string, WeatherForecast> _dbContext = new();
 
     public WeatherRepository()
     {
@@ -14,12 +15,12 @@ public class WeatherRepository : IWeatherRepository
 
     public WeatherForecast? GetByLocation(string location)
     {
-        return _db.GetValueOrDefault(location);
+        return _dbContext.GetValueOrDefault(location);
     }
 
     public void Update(string location, WeatherForecast forecast)
     {
-        _db[location] = forecast;
+        _dbContext[location] = forecast;
     }
 
     private void Seed()
@@ -43,7 +44,7 @@ public class WeatherRepository : IWeatherRepository
 
         foreach (var forecast in forecasts)
         {
-            _db[forecast.location] = forecast.value;
+            _dbContext[forecast.location] = forecast.value;
         }
     }
 }

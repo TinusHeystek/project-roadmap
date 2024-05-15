@@ -1,4 +1,4 @@
-using ProjectRoadmap.Cache.Endpoints;
+using ProjectRoadmap.Cache.Models;
 
 namespace ProjectRoadmap.Cache.Tests.Factories;
 

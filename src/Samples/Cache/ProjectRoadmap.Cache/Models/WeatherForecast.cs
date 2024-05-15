@@ -1,4 +1,4 @@
-namespace ProjectRoadmap.Cache.Endpoints;
+namespace ProjectRoadmap.Cache.Models;
 
 public class WeatherForecast
 {

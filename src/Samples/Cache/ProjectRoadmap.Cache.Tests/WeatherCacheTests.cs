@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Caching.Memory;
 using ProjectRoadmap.Cache.Tests.Factories;
+using ProjectRoadmap.Cache.Weather;
 
 namespace ProjectRoadmap.Cache.Tests;
 

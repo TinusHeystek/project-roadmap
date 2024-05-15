@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using ProjectRoadmap.Cache.Models;
+using ProjectRoadmap.Cache.Weather.Interfaces;
 
-namespace ProjectRoadmap.Cache.Endpoints;
+namespace ProjectRoadmap.Cache.Weather;
 
 public static class WeatherEndpoints
 {

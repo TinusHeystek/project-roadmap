@@ -1,7 +1,8 @@
 using Microsoft.Extensions.Caching.Memory;
-using ProjectRoadmap.Cache.Endpoints;
+using ProjectRoadmap.Cache.Models;
+using ProjectRoadmap.Cache.Weather.Interfaces;
 
-namespace ProjectRoadmap.Cache;
+namespace ProjectRoadmap.Cache.Weather;
 
 public class WeatherCache : IWeatherCache
 {
