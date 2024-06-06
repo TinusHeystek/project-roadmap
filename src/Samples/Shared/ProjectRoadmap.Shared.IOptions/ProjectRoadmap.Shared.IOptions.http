@@ -1,0 +1,9 @@
+@ProjectRoadmap.Shared.IOptions_HostAddress = https://localhost:7103
+
+GET {{ProjectRoadmap.Shared.IOptions_HostAddress}}/sample-settings/
+Accept: application/json
+
+###
+
+GET {{ProjectRoadmap.Shared.IOptions_HostAddress}}/sample-annotation-settings/
+Accept: application/json
