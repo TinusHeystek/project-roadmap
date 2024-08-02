@@ -33,15 +33,15 @@ internal class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Res
     }
 
     // send welcome email
-    var sendEmailCommand = new SendEmailCommand
-    {
-      To = command.Email,
-      From = "donotreply@test.com",
-      Subject = "Welcome to RiverBooks!",
-      Body = "Thank you for registering."
-    };
-
-    _ = await _mediator.Send(sendEmailCommand);
+    // var sendEmailCommand = new SendEmailCommand
+    // {
+    //   To = command.Email,
+    //   From = "donotreply@test.com",
+    //   Subject = "Welcome to RiverBooks!",
+    //   Body = "Thank you for registering."
+    // };
+    //
+    // _ = await _mediator.Send(sendEmailCommand);
 
     return Result.Success();
   }
