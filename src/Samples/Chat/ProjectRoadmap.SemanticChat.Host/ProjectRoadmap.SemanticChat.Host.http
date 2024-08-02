@@ -1,0 +1,6 @@
+@ProjectRoadmap.SemanticChat.Host_HostAddress = http://localhost:5080
+
+GET {{ProjectRoadmap.SemanticChat.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

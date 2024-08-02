@@ -4,3 +4,9 @@
     build:
       context: .
       dockerfile: src/App/StockStream.Host/Dockerfile
+
+  projectroadmap.semanticchat.host:
+    image: projectroadmap.semanticchat.host
+    build:
+      context: .
+      dockerfile: src/Samples/Chat/ProjectRoadmap.SemanticChat.Host/Dockerfile

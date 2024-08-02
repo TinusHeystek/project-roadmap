@@ -8,27 +8,26 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.3"/>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5"/>
         <PackageReference Include="FastEndpoints" Version="5.24.0" />
         <PackageReference Include="FastEndpoints.Security" Version="5.24.0" />
         <PackageReference Include="FastEndpoints.Swagger" Version="5.24.0" />
         <PackageReference Include="MediatR" Version="12.2.0" />
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-            <PrivateAssets>all</PrivateAssets>
-        </PackageReference>
         <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\..\..\.dockerignore">
+      <Content Include="..\..\..\..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Users Module\StockStream.Users\StockStream.Users.csproj" />
+      <ProjectReference Include="..\Chat Module\ProjectRoadmap.SemanticChat.Api\ProjectRoadmap.SemanticChat.Api.csproj" />
+      <ProjectReference Include="..\Chat Module\ProjectRoadmap.SemanticChat.Infrastructure\ProjectRoadmap.SemanticChat.Infrastructure.csproj" />
+      <ProjectReference Include="..\ProjectRoadmap.SemanticChat.SharedKernel\ProjectRoadmap.SemanticChat.SharedKernel.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 # Custom
 
-appsettings.*.json
+appsettings.Development.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/csharp,jetbrains+all,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=csharp,jetbrains+all,visualstudiocode
